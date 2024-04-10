@@ -1,0 +1,45 @@
+@import url(navbar.css);
+@import url(cards.css);
+@import url(contact.css);
+@import url(main.css);
+@import url(footer.css);
+
+.background {
+    background-color:rgba(119, 187, 242, 0.199) ;
+    border: 10px double rgba(1, 21, 45, 0.822);
+    padding: 10px; /* Espace entre le body et la bordure */
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: justify;
+}
+
+h1 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:2rem; 
+    color: rgb(9, 55, 75)
+}
+
+h3 {
+    font-size: 1,5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(12, 79, 118) 
+}
+
+.center {
+    text-align: center;
+}
+
+.center >p {
+text-align: center;
+}
+
+table a {
+    text-decoration: none;
+}
+
+

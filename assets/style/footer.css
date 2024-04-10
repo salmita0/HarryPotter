@@ -1,0 +1,37 @@
+.foot {
+    max-height: 40vh;
+    
+    background: rgba( 255, 255, 255, 0.05 );
+    box-shadow: 0 0 12px 0 rgba(31, 104, 135, 0.315);
+    backdrop-filter: blur( 0.5px );
+    -webkit-backdrop-filter: blur( 0.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.foot >.cordo {
+    text-align: left;
+    padding-bottom: 2rem;
+}
+
+/* .source p{
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+} */
+
+.cordo {
+    padding-left: 1rem;
+}
+
+.source { 
+    text-align: right;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+#source {
+    text-align: right;
+    /* padding-right: 1rem; */
+}

@@ -1,0 +1,60 @@
+.main{
+    /* background-color: brown; */
+    background-image: url(../images/hp_logo.png);
+    background-repeat:round;
+    background-size:auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 2rem;
+    border-bottom: 2px dotted rgba(16, 62, 119, 0.237)
+}
+
+.main h2 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(3, 20, 69)
+}
+
+.main div {
+    background: rgba( 255, 255, 255, 0.05 );
+    /* box-shadow: 0 8px 8px 0 rgba( 31, 38, 135, 0.37 ); */
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    
+    border-radius: 5px;
+    padding-top: 1rem;
+}
+
+.main div img {
+    border-radius: 5px;
+    width: 15vw;
+    height: 30vh;
+}
+
+.split {
+    display: flex;
+}
+
+ .split > * /*les enfants left, right*/ { 
+    width: 50%;
+}
+
+.split .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.split .right {
+    max-width: 55rem;
+}
+
+.right h3 {
+    font-size: 1,5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(12, 79, 118) 
+}
